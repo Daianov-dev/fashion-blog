@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fashion Blog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk&family=PT+Sans&family=PT+Serif:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Header start -->
+  <header class="header">
+    <div class="header__container">
+      <a class="header__logo logo" href="#">
+        <img src="/images/logo.svg" alt="FASHION Logo">
+      </a>
+      <nav class="header__nav">
+        <ul class="nav">
+          <li class="nav__item">
+            <a class="nav__link" href="#">Home</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Recipes</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Article</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Contact</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Purchase</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="burger">
+        <span></span>
+      </div>
+    </div>
+  </header>
+  <!-- HEader end -->
+  <!-- Main start -->
+  <main>
+    <!-- section Hero start -->
+    <section class="hero">
+      <div class="container">
+        <article class="hero__content">
+          <p class="hero__category">Vehicle</p>
+          <h1 class="hero__title">One of Saturn’s largest rings may be newer than anyone</h1>
+          <div class="hero__details">
+            <span class="hero__date hero__detail-item">June 6, 2019</span>
+            <span class="hero__author hero__detail-item"><span class="hero__by">By</span> Rickie Baroch</span>
+            <span class="hero__comments hero__detail-item">4 comments</span>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- section Hero end -->
+    <div class="content-wrapper">
+      <div class="container">
+        <div class="flex-container">
+          <div class="page-content">
+            <div id="content-container">
+            </div>
+            <div class="pagination" id="pagination">
+            </div>
+          </div>
+          <!-- Pagination start -->
+
+          <!-- Pagination end -->
+
+          <!-- Sidebar start -->
+          <aside class="sidebar">
+            <button class="sidebar-toggle">
+              <svg class="sidebar-icon" xmlns="http://www.w3.org/2000/svg" id="Outline" viewBox="0 0 24 24" width="512"
+                height="512">
+                <path
+                  d="M17.17,24a1,1,0,0,1-.71-.29L8.29,15.54a5,5,0,0,1,0-7.08L16.46.29a1,1,0,1,1,1.42,1.42L9.71,9.88a3,3,0,0,0,0,4.24l8.17,8.17a1,1,0,0,1,0,1.42A1,1,0,0,1,17.17,24Z" />
+              </svg>
+
+            </button>
+            <div class="sidebar-container">
+              <section class="section author-info">
+                <h2 class="author-info__header-title sidebar-title">About&nbsp;the&nbsp;author</h2>
+                <div class="author-info__content">
+                  <img class="author-info__image" src="/images/sidebar/path-to-author-image.jpg" alt="Kate Willems">
+                  <h3 class="author-info__name">Kate Willems</h3>
+                  <p class="author-info__subtitle">Food & cooking blogger</p>
+                  <p class="author-info__description">
+                    Hi, I'm Sonia. Cooking is the way I express my creative side to the world. Welcome to my Kitchen
+                    Corner on...
+                  </p>
+                  <a class="author-info__link" href="#">CONTINUE READING</a>
+                </div>
+              </section>
+
+
+              <section class="section featured">
+                <h2 class="featured__title sidebar-title">Featured posts</h2>
+                <article class="featured-card featured-card--with-margin">
+                  <img class="featured-card__image" src="/images/sidebar/path-to-featured-image1.jpg"
+                    alt="Описание картинки">
+                  <span class="featured-card__category category">JEANS</span>
+                  <h3 class="featured-card__title">One of Saturn’s largest rings may be newer than anyone</h3>
+                  <p class="featured-card__info">
+                    <time datetime="2019-06-06">June 6, 2019</time> <span class="by-text">by</span> <span
+                      class="featured-card__author">Rickie
+                      Baroch</span>
+                  </p>
+                </article>
+                <article class="featured-card featured-card--with-margin">
+                  <img class="featured-card__image" src="/images/sidebar/path-to-featured-image2.jpg"
+                    alt="Описание картинки">
+                  <span class="featured-card__category category">CITY</span>
+                  <h3 class="featured-card__title">One of Saturn’s largest rings may be newer than anyone</h3>
+                  <p class="featured-card__info">
+                    <time datetime="2019-06-06">June 6, 2019</time> <span class="by-text">by</span> <span
+                      class="featured-card__author">Rickie
+                      Baroch</span>
+                  </p>
+                </article>
+                <article class="featured-card">
+                  <img class="featured-card__image" src="/images/sidebar/path-to-featured-image3.jpg"
+                    alt="Описание картинки">
+                  <span class="featured-card__category category">Photography</span>
+                  <h3 class="featured-card__title">One of Saturn’s largest rings may be newer than anyone</h3>
+                  <p class="featured-card__info">
+                    <time datetime="2019-06-06">June 6, 2019</time> <span class="by-text">by</span> <span
+                      class="featured-card__author">Rickie
+                      Baroch</span>
+                  </p>
+                </article>
+              </section>
+
+              <section class="section categories">
+                <h2 class="categories__title sidebar-title">Categories</h2>
+                <ul class="categories__list">
+                  <li class="categories__item categories__item--with-margin">
+                    <a class="categories__link" href="#">
+                      <span class="categories__name">Fashion</span>
+                      <span class="categories__count">(23)</span>
+                    </a>
+                  </li>
+                  <li class="categories__item categories__item--with-margin">
+                    <a class="categories__link" href="#">
+                      <span class="categories__name">Style &amp; clothes</span>
+                      <span class="categories__count">(7)</span>
+                    </a>
+                  </li>
+                  <li class="categories__item categories__item--with-margin">
+                    <a class="categories__link" href="#">
+                      <span class="categories__name">Minimalism</span>
+                      <span class="categories__count">(16)</span>
+                    </a>
+                  </li>
+                  <li class="categories__item categories__item--with-margin">
+                    <a class="categories__link" href="#">
+                      <span class="categories__name">Black &amp; White</span>
+                      <span class="categories__count">(5)</span>
+                    </a>
+                  </li>
+                  <li class="categories__item">
+                    <a class="categories__link" href="#">
+                      <span class="categories__name">Modern clothes</span>
+                      <span class="categories__count">(12)</span>
+                    </a>
+                  </li>
+                </ul>
+              </section>
+
+              <section class="section social-media">
+                <h2 class="social-media__title sidebar-title">Social media</h2>
+                <div class="social-media__icons">
+                  <div class="social-media__item">
+                    <a class="social-media__link" href="https://www.facebook.com" target="_blank">
+                      <img class="social-media__icon" src="/images/social-media/facebook-icon.svg" alt="Facebook">
+                      <span class="social-media__number">32k<br>likes</span>
+                    </a>
+                  </div>
+                  <div class="social-media__item">
+                    <a class="social-media__link" href="https://www.pinterest.com" target="_blank">
+                      <img class="social-media__icon" src="/images/social-media/pinterest-icon.svg" alt="Pinterest">
+                      <span class="social-media__number">814<br>followers</span>
+                    </a>
+                  </div>
+                  <div class="social-media__item">
+                    <a class="social-media__link" href="https://www.vimeo.com" target="_blank">
+                      <img class="social-media__icon" src="/images/social-media/vimeo-icon.svg" alt="Vimeo">
+                      <span class="social-media__number">165<br>followers</span>
+                    </a>
+                  </div>
+                  <div class="social-media__item">
+                    <a class="social-media__link" href="https://www.dribbble.com" target="_blank">
+                      <img class="social-media__icon" src="/images/social-media/dribbble-icon.svg" alt="Dribbble">
+                      <span class="social-media__number">6k<br>followers</span>
+                    </a>
+                  </div>
+                  <div class="social-media__item">
+                    <a class="social-media__link" href="https://www.twitter.com" target="_blank">
+                      <img class="social-media__icon" src="/images/social-media/twitter-icon.svg" alt="Twitter">
+                      <span class="social-media__number">130k<br>followers</span>
+                    </a>
+                  </div>
+                  <div class="social-media__item">
+                    <a class="social-media__link" href="https://www.behance.net" target="_blank">
+                      <img class="social-media__icon" src="/images/social-media/behance-icon.svg" alt="Behance">
+                      <span class="social-media__number">37k<br>followers</span>
+                    </a>
+                  </div>
+                  <div class="social-media__item">
+                    <a class="social-media__link" href="https://www.instagram.com" target="_blank">
+                      <img class="social-media__icon" src="/images/social-media/instagram-icon.svg" alt="Instagram">
+                      <span class="social-media__number">854k<br>followers</span>
+                    </a>
+                  </div>
+                  <div class="social-media__item">
+                    <a class="social-media__link" href="https://www.youtube.com" target="_blank">
+                      <img class="social-media__icon" src="/images/social-media/youtube-icon.svg" alt="YouTube">
+                      <span class="social-media__number">52k<br>subscribers</span>
+                    </a>
+                  </div>
+                  <div class="social-media__item">
+                    <a class="social-media__link" href="https://plus.google.com" target="_blank">
+                      <img class="social-media__icon" src="/images/social-media/google-plus-icon.svg" alt="Google+">
+                      <span class="social-media__number">642<br>followers</span>
+                    </a>
+                  </div>
+                </div>
+              </section>
+
+              <section class="tags">
+                <h2 class="tags__title sidebar-title">Tags</h2>
+                <div class="tags__list">
+                  <a href="#" class="tags__item">Business</a>
+                  <a href="#" class="tags__item">Freelance</a>
+                  <a href="#" class="tags__item">Money</a>
+                  <a href="#" class="tags__item">Experience</a>
+                  <a href="#" class="tags__item">Lifestyle</a>
+                  <a href="#" class="tags__item">SEO</a>
+                  <a href="#" class="tags__item">Wordpress</a>
+                  <a href="#" class="tags__item">Marketing</a>
+                  <a href="#" class="tags__item">UX</a>
+                  <a href="#" class="tags__item">Modern</a>
+                  <a href="#" class="tags__item">Success</a>
+                  <a href="#" class="tags__item">Nature</a>
+                </div>
+              </section>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </div>
+    <!-- Sidebar end -->
+    <!-- instagram-feed start -->
+    <section class="instagram">
+      <h2 class="instagram__title">Follow our @instagram_name</h2>
+      <div class="instagram__feed">
+        <a class="instagram__link" href="#"><img class="instagram__image" src="/images/instagram-feed/1.jpg"
+            alt="Instagram image 1"></a>
+        <a class="instagram__link" href="#"><img class="instagram__image" src="/images/instagram-feed/2.jpg"
+            alt="Instagram image 2"></a>
+        <a class="instagram__link" href="#"><img class="instagram__image" src="/images/instagram-feed/3.jpg"
+            alt="Instagram image 3"></a>
+        <a class="instagram__link" href="#"><img class="instagram__image" src="/images/instagram-feed/4.jpg"
+            alt="Instagram image 4"></a>
+        <a class="instagram__link" href="#"><img class="instagram__image" src="/images/instagram-feed/5.jpg"
+            alt="Instagram image 5"></a>
+        <a class="instagram__link" href="#"><img class="instagram__image" src="/images/instagram-feed/6.jpg"
+            alt="Instagram image 6"></a>
+      </div>
+    </section>
+    <!-- instagram-feed end -->
+  </main>
+  <!-- Main end -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <a class="footer__logo logo" href="#">
+          <img src="/images/logo.svg" alt="FASHION Logo">
+        </a>
+
+        <nav class="footer__nav">
+          <ul class="footer__nav-list">
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Home</a></li>
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Recipes</a></li>
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Article</a></li>
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Contact</a></li>
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Purchase</a></li>
+          </ul>
+        </nav>
+        <div class="footer__wrapper">
+          <div class="footer__social">
+            <a class="footer__social-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"
+                viewBox="0 0 36 36" fill="none">
+                <path class="icon-background" fill-rule="evenodd" clip-rule="evenodd"
+                  d="M18 35C27.3888 35 35 27.3888 35 18C35 8.61116 27.3888 1 18 1C8.61116 1 1 8.61116 1 18C1 27.3888 8.61116 35 18 35Z"
+                  stroke="#E5E5E5" />
+                <path class="icon-main"
+                  d="M21.7831 10.2115L19.784 10.2083C17.5381 10.2083 16.0867 11.6999 16.0867 14.0087V15.7609H14.0767C13.903 15.7609 13.7623 15.902 13.7623 16.0759V18.6147C13.7623 18.7887 13.9031 18.9296 14.0767 18.9296H16.0867V25.3358C16.0867 25.5098 16.2273 25.6507 16.401 25.6507H19.0235C19.1972 25.6507 19.3378 25.5096 19.3378 25.3358V18.9296H21.688C21.8617 18.9296 22.0024 18.7887 22.0024 18.6147L22.0033 16.0759C22.0033 15.9924 21.9701 15.9124 21.9113 15.8533C21.8524 15.7942 21.7722 15.7609 21.6888 15.7609H19.3378V14.2755C19.3378 13.5616 19.5077 13.1991 20.4361 13.1991L21.7828 13.1986C21.9563 13.1986 22.097 13.0576 22.097 12.8838V10.5263C22.097 10.3527 21.9565 10.2118 21.7831 10.2115Z"
+                  fill="#666666" />
+              </svg></a>
+            <a class="footer__social-link" href><svg width="36" height="36" viewBox="0 0 36 36" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path class="icon-background" fill-rule="evenodd" clip-rule="evenodd"
+                  d="M18 35C27.3888 35 35 27.3888 35 18C35 8.61116 27.3888 1 18 1C8.61116 1 1 8.61116 1 18C1 27.3888 8.61116 35 18 35Z"
+                  fill="white" />
+                <path class="icon-main"
+                  d="M25.7916 13.1344C25.2185 13.3903 24.6019 13.5634 23.9553 13.6407C24.6155 13.2424 25.1221 12.6123 25.3613 11.8602C24.7435 12.2292 24.059 12.4968 23.331 12.6411C22.7478 12.0158 21.9169 11.625 20.9968 11.625C19.2315 11.625 17.7997 13.0665 17.7997 14.8438C17.7997 15.0961 17.8281 15.3416 17.8829 15.5773C15.2258 15.4432 12.8699 14.1618 11.2929 12.2138C11.0178 12.6891 10.8599 13.2424 10.8599 13.8322C10.8599 14.9487 11.4248 15.9343 12.2822 16.5114C11.7583 16.4948 11.265 16.35 10.8342 16.1083C10.834 16.122 10.834 16.1357 10.834 16.1491C10.834 17.7087 11.9365 19.0095 13.3988 19.305C13.1308 19.3789 12.8477 19.4181 12.5566 19.4181C12.3501 19.4181 12.1501 19.3981 11.9551 19.3607C12.3618 20.6392 13.5423 21.5698 14.9416 21.596C13.8472 22.4594 12.4689 22.9739 10.9706 22.9739C10.7131 22.9739 10.4579 22.9587 10.2083 22.9287C11.6224 23.8423 13.3034 24.375 15.1088 24.375C20.9894 24.375 24.2054 19.4704 24.2054 15.2166C24.2054 15.0771 24.2023 14.9381 24.1961 14.8003C24.8212 14.3466 25.3632 13.7799 25.7916 13.1344V13.1344Z"
+                  fill="#666666" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M18 35C27.3888 35 35 27.3888 35 18C35 8.61116 27.3888 1 18 1C8.61116 1 1 8.61116 1 18C1 27.3888 8.61116 35 18 35Z"
+                  stroke="#E5E5E5" />
+              </svg>
+            </a>
+            <a class="footer__social-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"
+                viewBox="0 0 36 36" fill="none">
+                <path class="icon-background" fill-rule="evenodd" clip-rule="evenodd"
+                  d="M18 35C27.3888 35 35 27.3888 35 18C35 8.61116 27.3888 1 18 1C8.61116 1 1 8.61116 1 18C1 27.3888 8.61116 35 18 35Z"
+                  stroke="#E5E5E5" />
+                <path class="icon-main"
+                  d="M22.8088 11.8003C21.7556 10.7737 20.298 10.2083 18.7046 10.2083C16.2706 10.2083 14.7736 11.2213 13.9463 12.071C12.9268 13.1183 12.3422 14.5088 12.3422 15.8861C12.3422 17.6155 13.0547 18.9428 14.2477 19.4366C14.3278 19.47 14.4084 19.4867 14.4874 19.4867C14.7391 19.4867 14.9385 19.3195 15.0076 19.0513C15.0479 18.8974 15.1412 18.5178 15.1818 18.353C15.2686 18.0276 15.1985 17.871 15.0091 17.6444C14.664 17.2299 14.5033 16.7397 14.5033 16.1017C14.5033 14.2068 15.893 12.1928 18.4688 12.1928C20.5125 12.1928 21.7821 13.3722 21.7821 15.2706C21.7821 16.4686 21.5279 17.5781 21.0663 18.3948C20.7455 18.9623 20.1814 19.6387 19.3154 19.6387C18.941 19.6387 18.6046 19.4825 18.3923 19.2103C18.1918 18.9529 18.1257 18.6203 18.2064 18.2738C18.2975 17.8823 18.4217 17.4738 18.5419 17.079C18.7612 16.3579 18.9684 15.6767 18.9684 15.1333C18.9684 14.2038 18.4056 13.5793 17.5681 13.5793C16.5037 13.5793 15.6698 14.677 15.6698 16.0782C15.6698 16.7654 15.8497 17.2794 15.9311 17.4768C15.797 18.0536 15.0001 21.483 14.849 22.1297C14.7616 22.5072 14.235 25.4888 15.1065 25.7266C16.0857 25.9937 16.9609 23.0898 17.05 22.7617C17.1222 22.4948 17.3749 21.4857 17.5297 20.8653C18.0024 21.3276 18.7634 21.6402 19.504 21.6402C20.9001 21.6402 22.1556 21.0023 23.0394 19.8442C23.8965 18.7209 24.3685 17.1552 24.3685 15.4358C24.3685 14.0917 23.8 12.7665 22.8088 11.8003Z"
+                  fill="#666666" />
+              </svg></a>
+            <a class="footer__social-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"
+                viewBox="0 0 36 36" fill="none">
+                <path class="icon-background" fill-rule="evenodd" clip-rule="evenodd"
+                  d="M18 35C27.3888 35 35 27.3888 35 18C35 8.61116 27.3888 1 18 1C8.61116 1 1 8.61116 1 18C1 27.3888 8.61116 35 18 35Z"
+                  stroke="#E5E5E5" />
+                <path class="icon-main"
+                  d="M8.2231 17.9619C8.10384 14.7604 10.8543 11.8019 13.9975 11.7635C15.5995 11.6242 17.1581 12.2585 18.3705 13.2929C17.8732 13.8505 17.3671 14.4015 16.8266 14.9174C15.7593 14.2563 14.4743 13.7525 13.2269 14.1999C11.215 14.784 9.99652 17.206 10.7411 19.2127C11.3576 21.3085 13.858 22.4587 15.8175 21.5783C16.8322 21.2079 17.5012 20.2534 17.7947 19.2277C16.6318 19.2041 15.4687 19.2189 14.3058 19.1861C14.3029 18.4807 14.3 17.778 14.3029 17.0726C16.2422 17.0696 18.1843 17.0637 20.1265 17.0814C20.2458 18.8098 19.9957 20.6595 18.8936 22.0467C17.3845 24.0268 14.5964 24.608 12.3283 23.8312C9.92122 23.0251 8.17071 20.5527 8.2231 17.9619Z"
+                  fill="#666666" />
+                <path class="icon-main"
+                  d="M23.9066 15.2937C24.4824 15.2937 25.0579 15.2937 25.6363 15.2937C25.6395 15.8837 25.645 16.4766 25.6482 17.0664C26.2266 17.0723 26.8082 17.0752 27.3868 17.0782C27.3868 17.6682 27.3868 18.2549 27.3868 18.8449C26.8084 18.8479 26.2268 18.8508 25.6482 18.8538C25.6424 19.4467 25.6395 20.0364 25.6363 20.6294C25.0579 20.6264 24.479 20.6294 23.9034 20.6294C23.8979 20.0364 23.8979 19.4467 23.8919 18.8567C23.3134 18.8505 22.7319 18.8479 22.1532 18.8446C22.1532 18.2547 22.1532 17.6679 22.1532 17.0779C22.7319 17.0749 23.3106 17.072 23.8919 17.0661C23.8948 16.4766 23.9006 15.8837 23.9066 15.2937Z"
+                  fill="#666666" />
+              </svg></a>
+            <a class="footer__social-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"
+                viewBox="0 0 36 36" fill="none">
+                <path class="icon-background" fill-rule="evenodd" clip-rule="evenodd"
+                  d="M18 35C27.3888 35 35 27.3888 35 18C35 8.61116 27.3888 1 18 1C8.61116 1 1 8.61116 1 18C1 27.3888 8.61116 35 18 35Z"
+                  stroke="#E5E5E5" />
+                <path class="icon-main" fill-rule="evenodd" clip-rule="evenodd"
+                  d="M16.2251 17.3989C16.2251 17.3989 17.9652 17.2747 17.9652 15.2873C17.9652 13.3055 16.542 12.3333 14.7351 12.3333H8.79169V23.4311H14.7346C14.7346 23.4311 18.365 23.5393 18.365 20.1531C18.3653 20.1531 18.521 17.3989 16.2251 17.3989ZM18.8154 19.4188C18.8154 19.397 18.8211 15.1576 23.2018 15.1576C27.8275 15.1576 27.177 19.9748 27.177 19.9748H21.2617C21.2617 22.0325 23.2686 21.9028 23.2686 21.9028C25.1698 21.9028 25.1033 20.7094 25.1033 20.7094H27.1102C27.1102 23.8794 23.2018 23.6635 23.2018 23.6635C18.5153 23.6635 18.8154 19.4188 18.8154 19.4188ZM23.2465 16.783C21.4839 16.783 21.2393 18.4896 21.2393 18.4896H24.9865C24.9865 18.4896 25.0144 16.783 23.2465 16.783ZM14.7348 14.3043H11.4104V16.783H14.5291C15.0685 16.783 15.5411 16.6155 15.5411 15.4599C15.5411 14.3043 14.7348 14.3043 14.7348 14.3043ZM14.5683 21.46H11.4104V18.4896H14.7348C14.7348 18.4896 15.9415 18.4789 15.9358 20.0179C15.9358 21.3142 15.0409 21.4492 14.5683 21.46ZM20.7445 14.3532V12.9867H25.4591V14.3532H20.7445Z"
+                  fill="#666666" />
+              </svg></a>
+            <a class="footer__social-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"
+                viewBox="0 0 36 36" fill="none">
+                <path class="icon-background" fill-rule="evenodd" clip-rule="evenodd"
+                  d="M18 35C27.3888 35 35 27.3888 35 18C35 8.61116 27.3888 1 18 1C8.61116 1 1 8.61116 1 18C1 27.3888 8.61116 35 18 35Z"
+                  stroke="#E5E5E5" />
+                <path class="icon-main" fill-rule="evenodd" clip-rule="evenodd"
+                  d="M14.8125 9.5H21.1875C24.1211 9.5 26.5 11.8789 26.5 14.8125V21.1875C26.5 24.1211 24.1211 26.5 21.1875 26.5H14.8125C11.8789 26.5 9.5 24.1211 9.5 21.1875V14.8125C9.5 11.8789 11.8789 9.5 14.8125 9.5ZM21.1875 24.9062C23.2381 24.9062 24.9062 23.2381 24.9062 21.1875V14.8125C24.9062 12.7619 23.2381 11.0938 21.1875 11.0938H14.8125C12.7619 11.0938 11.0938 12.7619 11.0938 14.8125V21.1875C11.0938 23.2381 12.7619 24.9062 14.8125 24.9062H21.1875Z"
+                  fill="#666666" />
+                <path class="icon-main" fill-rule="evenodd" clip-rule="evenodd"
+                  d="M13.75 18C13.75 15.6529 15.6529 13.75 18 13.75C20.3471 13.75 22.25 15.6529 22.25 18C22.25 20.3471 20.3471 22.25 18 22.25C15.6529 22.25 13.75 20.3471 13.75 18ZM15.3438 18C15.3438 19.4641 16.5359 20.6562 18 20.6562C19.4641 20.6562 20.6562 19.4641 20.6562 18C20.6562 16.5348 19.4641 15.3438 18 15.3438C16.5359 15.3438 15.3438 16.5348 15.3438 18Z"
+                  fill="#666666" />
+                <path class="icon-main"
+                  d="M22.6042 14.4583C23.191 14.4583 23.6667 13.9826 23.6667 13.3958C23.6667 12.8089 23.191 12.3333 22.6042 12.3333C22.0174 12.3333 21.5417 12.8089 21.5417 13.3958C21.5417 13.9826 22.0174 14.4583 22.6042 14.4583Z"
+                  fill="#666666" />
+              </svg></a>
+          </div>
+        </div>
+        <div class="footer__copyright">
+          &copy;2019 Logwork. All Right Reserved.
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
